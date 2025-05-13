@@ -1,9 +1,11 @@
 package BoletoClass;
 
+import EntitiesClass.entities;
+
 public class Boleto {
-    private Entidade beneficiario;
-    private Entidade sacado;
-    private Titulo titulo = new Titulo();
+    private entities beneficiario;
+    private entities sacado;
+    private Titulos titulo = new Titulos();
     private ContaBancaria conta;
     private Banco banco;
     private String linhaDigitavel;
@@ -12,27 +14,27 @@ public class Boleto {
 
     // Getters e Setters
 
-    public Entidade getBeneficiario() {
+    public entities getBeneficiario() {
         return beneficiario;
     }
 
-    public void setBeneficiario(Entidade beneficiario) {
+    public void setBeneficiario(entities beneficiario) {
         this.beneficiario = beneficiario;
     }
 
-    public Entidade getSacado() {
+    public entities getSacado() {
         return sacado;
     }
 
-    public void setSacado(Entidade sacado) {
+    public void setSacado(entities sacado) {
         this.sacado = sacado;
     }
 
-    public Titulo getTitulo() {
+    public Titulos getTitulo() {
         return titulo;
     }
 
-    public void setTitulo(Titulo titulo) {
+    public void setTitulo(Titulos titulo) {
         this.titulo = titulo;
     }
 

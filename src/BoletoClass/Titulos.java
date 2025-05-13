@@ -7,7 +7,7 @@ public class Titulos {
     private LocalDate dataVencimento;
     private Double valor;
 
-    // Getters
+
     public String getNumeroDocumento() {
         return numeroDocumento;
     }
@@ -20,7 +20,7 @@ public class Titulos {
         return valor;
     }
 
-    // Setters
+
     public void setNumeroDocumento(String numeroDocumento) {
         this.numeroDocumento = numeroDocumento;
     }
@@ -33,7 +33,7 @@ public class Titulos {
         this.valor = valor;
     }
 
-    // toString
+
     @Override
     public String toString() {
         return "Titulo{" +

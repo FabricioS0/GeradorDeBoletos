@@ -6,7 +6,7 @@ public enum ContasEnum {
 
         private final String descricao;
 
-        ContaEnum(String descricao) {
+        ContasEnum(String descricao) {
             this.descricao = descricao;
         }
 

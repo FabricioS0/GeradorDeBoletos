@@ -14,7 +14,7 @@ public class ContaBancaria {
         this.agencia = agencia;
     }
 
-    public void setTipoConta(ContaEnum tipoConta) {
+    public void setTipoConta(ContasEnum tipoConta) {
         this.tipoConta = tipoConta;
     }
 
